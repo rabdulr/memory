@@ -9,9 +9,9 @@ Please run -
 
 Once done, run -
 
- ```npm start:build```
+ ```npm run start:build```
  
- You should then be able to open localhost:3000 to try the game
+ You should then be able to open the game by going live with within your editor.
 
 ## Built With
 - React
