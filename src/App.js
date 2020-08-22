@@ -41,16 +41,16 @@ const App = () => {
                 <h5>Array Count: {squares.length} </h5>
                     { squares.map((square, idx) => {
                         return (
-                            <button
+                            <div
                                 data-note={`${square}`} 
-                                className={active === square ? 'active' : ''} 
+                                className={active === square ? 'square active' : 'square'} 
                                 key={square} 
                                 ref={inputRef.current[idx]}
                                 value={square}
                                 onClick={(event) => handleClick(event, idx)}
                                 >
                                     {square}
-                            </button>
+                            </div>
                         )
                     })}
             </div>
